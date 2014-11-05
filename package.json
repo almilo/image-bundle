@@ -8,6 +8,9 @@
         "angular-bsfy": "^1.2.26-1",
         "bootstrap": "^3.3.0"
     },
+    "scripts": {
+        "postinstall": "npm i ./image-bundle"
+    },
     "atomify": {
         "server": {
             "lr": true,
