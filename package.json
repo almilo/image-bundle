@@ -1,0 +1,32 @@
+{
+    "name": "angular-scaffold",
+    "version": "0.0.0",
+    "author": "Alberto Mijares <almilo@almilo.es>",
+    "license": "MIT",
+    "private": true,
+    "dependencies": {
+        "angular-bsfy": "^1.2.26-1",
+        "bootstrap": "^3.3.0"
+    },
+    "devDependencies": {
+        "urify": "^1.0.6"
+    },
+    "atomify": {
+        "server": {
+            "lr": true,
+            "open": true,
+            "path": "src/app/index.html"
+        },
+        "js": {
+            "entry": "src/app/main.js",
+            "alias": "src/app/app.js"
+        },
+        "css": {
+            "entry": "src/app/main.css",
+            "alias": "src/app/app.css"
+        }
+    },
+    "browserify": {
+        "transform": ["image-bundle"]
+    }
+}
