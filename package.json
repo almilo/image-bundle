@@ -16,14 +16,12 @@
         },
         "js": {
             "entry": "src/app/main.js",
-            "alias": "src/app/app.js"
+            "alias": "src/app/app.js",
+            "transform": ["image-bundle"]
         },
         "css": {
             "entry": "src/app/main.css",
             "alias": "src/app/app.css"
         }
-    },
-    "browserify": {
-        "transform": ["image-bundle"]
     }
 }

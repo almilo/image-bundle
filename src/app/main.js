@@ -10,7 +10,7 @@ angular.module('app', ['ngRoute'])
     .config(function ($routeProvider) {
         $routeProvider
             .when('/home', {
-                template: '<img src="{{imageUrl}}" ng-click="toggle()"></img>',
+                template: '<img src="{{imageUrl}}" ng-click="toggle()">',
                 controller: controller
             })
             .otherwise({
